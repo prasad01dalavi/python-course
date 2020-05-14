@@ -1,0 +1,46 @@
+pwd : present working directory
+
+ls : list files and directories in current directory
+
+ls -all : list all files (including hidden files and dirs)
+
+ls /path/to/dir : list files and dir at location /path/to/dir
+
+ls dir1/*.txt : list only text files from dir1
+
+ctrl + l : Clear the terminal screen
+
+mkdir dir_name : create dir_name directory in current location
+
+mkdir /path/to/dir/dir_name : create dir_name at location /path/to/dir
+
+rmdir dir_name : remove empty directory named as dir_name
+
+rmdir /path/to/dir/dir_name : remove empty dir_name at location /path/to/dir
+
+rm -rf dir_name : remove non-empty directory forcefully
+
+rm file_name.extension : remove file_name.extension from current location
+
+. == ./ : in some cases only
+
+cat filename.extension : show filename.extension contents in terminal
+
+cp file.ext renamed_file.ext : copy file from current dir and paste it by renaming
+
+cp -r dir1 dir2 : copy dir1 and its contents into dir2 (if not present will be created automatically)
+
+cp dir1/* dir2 : copy all contents of dir1 to dir2
+
+
+
+
+
+
+
+
+
+
+
+
+
