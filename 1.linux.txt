@@ -4,9 +4,13 @@ ls : list files and directories in current directory
 
 ls -all : list all files (including hidden files and dirs)
 
+ll == ls -all
+
 ls /path/to/dir : list files and dir at location /path/to/dir
 
 ls dir1/*.txt : list only text files from dir1
+
+ls mydir | wc -l : Get count of files and directories in mydir
 
 ctrl + l : Clear the terminal screen
 
@@ -32,6 +36,32 @@ cp -r dir1 dir2 : copy dir1 and its contents into dir2 (if not present will be c
 
 cp dir1/* dir2 : copy all contents of dir1 to dir2
 
+vim file.extension : edit and/or create file (refer 2.vim_basics.txt)
+
+mv source_file.ext destination : move file to destination 
+
+mv source_dir destination : move source directory to destination
+
+SSH : Secure Shell
+- Contains two basic keys 
+1) Private key: id_rsa
+2) Public Key: id_rsa.pub
+- known_hosts: Contains information about hosts, which we have connected (connection history)
+
+ssh-keygen -t rsa : Generate private and public ssh keys
+
+ssh-copy-id username@ip_address : copy my public key to username@ip_address host
+
+SCP : Secure Copy Protocol
+- Must: my ssh key to remote host for scp operations
+
+scp remote_username@remote_ip:/remote/file /local/path  => download file from remote ip to local system
+
+scp -r <folder_name> username@ip_address:/remote/path => upload folder from local to remote ip 
+
+
+# Reference Link
+https://github.com/prasad01dalavi/linux_commands
 
 
 

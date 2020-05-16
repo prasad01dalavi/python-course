@@ -1,0 +1,6 @@
+- A text editor
+- General two modes: 1) Command 2) Insert
+- Command Mode 
+:w ==> write (similar to ctrl+s)
+:q ==> quit (similar to alt+F4)
+:wq ==> write and quit
