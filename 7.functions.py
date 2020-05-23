@@ -21,7 +21,7 @@ def calc(a, b, c=4):  # here c is default optional argument
 result = calc(10, 5, 3)
 print('returned result = ', result)
 
-# args and kwargs
+# args (variable length argumentss) and kwargs 
 def foo(required,  *args, **kwargs):
     print('required ', required)
     if args:

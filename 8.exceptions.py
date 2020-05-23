@@ -2,6 +2,8 @@
 # when try succeed, else is executed, (except will not execute)
 # when except is executed, else will never execute
 # finally always executes at the end
+# try and except are compulsory
+# else and finally are optional things
 
 try:
 	print('In try block')

@@ -1,0 +1,10 @@
+
+these are my file contents
+this is line #2
+this is line #3
+bla bla bla
+
+
+	these are my new contents
+
+	these are my new contents
