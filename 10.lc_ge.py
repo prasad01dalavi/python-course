@@ -10,6 +10,7 @@ print(f'even list: {even_list}')
 
 # now above code using LC
 even_lc_list = [num for num in range(50) if num % 2 == 0]
+
 print(f'LC output: {even_lc_list}')
 
 # another example
